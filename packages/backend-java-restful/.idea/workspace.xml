@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ef7cc46-9d0d-49ed-993e-bafc5dc83650" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend-go/.air.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/controllers/postController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/controllers/serverHome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/initializers/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/initializers/envVars.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/models/postsModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/prisma/db/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/ws/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend-go/ws/hub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rest_service/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/rest_service/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/utils/bot.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/ai/knowledge_base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/request.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/token.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Side/TrainDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/routes/room.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/routes/room.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/ws/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/ws/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/ws/sendMsg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/ws/sendMsg.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/auto-imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/auto-imports.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Message/hook.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Message/hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Message/scroll.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Message/scroll.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Side/DropdownMenu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Side/DropdownMenu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/store/reducer/room.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/store/reducer/room.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pnpm-lock.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2tnsIsvPMiw6e8XXZoQYay8wyCx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle./Users/plh/study/chat/packages/backend-java-restful/build.gradle.executor": "Run",
+    "Gradle.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "chatbot",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="run" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ef7cc46-9d0d-49ed-993e-bafc5dc83650" name="Changes" comment="" />
+      <created>1740999095974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740999095974</updated>
+      <workItem from="1740999097400" duration="695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
