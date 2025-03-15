@@ -25,7 +25,6 @@
 </script>
 
 <main class="p-2">
-  <!-- <Button class="mb-4" onclick={handleClick} color="dark">add</Button> -->
   <AddModal onSubmit={handleClick} />
   <Table>
     <TableHead>
