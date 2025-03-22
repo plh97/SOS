@@ -16,10 +16,12 @@
         name: "{{ item }}"
         state: stopped
       loop: "{{ docker_info.containers | map(attribute='Id') | list }}"
+
     - name: Delete content & directory
       file:
         state: absent
         path: ~/SOS/
+
     - name: Clone Repository
       git:
         repo: https://github.com/plh97/SOS.git

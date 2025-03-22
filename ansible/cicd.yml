@@ -10,33 +10,22 @@
       docker_host_info:
         containers: yes
       register: docker_info
+
     - name: Stop running containers
       docker_container:
         name: "{{ item }}"
         state: stopped
       loop: "{{ docker_info.containers | map(attribute='Id') | list }}"
-    # - name: Delete content & directory
-    #   file:
-    #     state: absent
-    #     path: ~/chatroom/
+
     - name: pull latest code on develop branch
       git:
-        repo: https://github.com/plh2/c.git
-        dest: ~/c
+        repo: https://github.com/plh2/SOS.git
+        dest: ~/SOS
         force: true
         version: develop
 
-    - name: install dependences
-      command:
-        cmd: pnpm run bootstrap
-        chdir: ~/c
-
-    # - name: build
-    #   command:
-    #     chdir: ~/c
-    #     cmd: npm run build
-
     - name: deploy
       command:
-        chdir: ~/c
-        cmd: npm run deploy
+        chdir: ~/SOS
+        cmd: docker compose -f ./docker-compose.dev.yml up
+...
