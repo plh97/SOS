@@ -5,11 +5,11 @@ resource "aws_instance" "app_server" {
   key_name = var.key_name
 
   tags = {
-    Name = "Chat Room"
+    Name = "ScienceOS"
   }
-  # provisioner "local-exec" {
-  #   command = "sh modify_ip.sh ${self.public_ip} && ssh-keyscan -H ${self.public_ip} >> ~/.ssh/known_hosts"
-  # }
+  provisioner "local-exec" {
+    command = "sh modify_ip.sh ${self.public_ip}"
+  }
   metadata_options {
       http_tokens = "required"
   }
