@@ -1,39 +1,21 @@
 services:
   mongodb:
-    image: prismagraphql/mongo-single-replica:4.4.3-bionic
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: prisma
-      INIT_WAIT_SEC: 3
-    command: ["--bind_ip_all", "--quiet"]
+    image: mongo:latest
     networks:
       - backend
 
-  nginx:
-    hostname: nginx
+  java-mongo:
+    hostname: java-mongo
     restart: always
-    build:
-      context: "./nginx"
     volumes:
-      - ./nginx/conf.d/:/etc/nginx/conf.d/
-      - ./nginx/log:/var/log/nginx/
+      - ./packages/java-mongo/:/app
+    command: ./gradlew build && java -jar build/libs/java-mongo-0.0.1-SNAPSHOT.jar
     ports:
-      - "443:443"
-      - "80:80"
-    networks:
-      - backend
-
-  backend:
-    hostname: backend
-    restart: always
-    command: pnpm -F backend run serve
+      - "8080:8080"
     environment:
-      DATABASE_URL: mongodb://root:prisma@mongodb:27017/test?authSource=admin&retryWrites=true&w=majority&directConnection=true
       PORT: "8080"
-    volumes:
-      - ./:/app
     build:
-      dockerfile: ./backend.Dockerfile
+      context: "./packages/java-mongo"
     networks:
       - backend
 

@@ -1,0 +1,4 @@
+FROM openjdk:23-jdk
+COPY . /app
+RUN microdnf install findutils
+WORKDIR /app

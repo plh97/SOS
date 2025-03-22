@@ -1,0 +1,14 @@
+{
+  "name": "java-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./gradlew bootRun",
+    "build": "./gradlew build && java -jar build/libs/java-mongo-0.0.1-SNAPSHOT.jar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

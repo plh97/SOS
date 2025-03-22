@@ -19,25 +19,17 @@
     - name: Delete content & directory
       file:
         state: absent
-        path: ~/chatroom/
+        path: ~/SOS/
     - name: Clone Repository
       git:
-        repo: https://github.com/plh97/c.git
-        dest: ~/chatroom
+        repo: https://github.com/plh97/SOS.git
+        dest: ~/SOS
         clone: yes
         update: yes
-        version: feat/terraform-aws
+        version: main
 
-    - name: install dependences
-      command:
-        cmd: pnpm i
-        chdir: ~/chatroom
-    # - name: build
-    #   command:
-    #     chdir: ~/chatroom
-    #     cmd: npm run build
     - name: deploy
       command:
-        chdir: ~/chatroom
-        cmd: pnpm run deploy
+        chdir: ~/SOS
+        cmd: docker compose -f ./docker-compose.dev.yml up
 ...
