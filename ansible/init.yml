@@ -7,10 +7,10 @@
   become_method: sudo
   tasks:
 
-    - name: install docker
-      command:
-        chdir: ~/SOS
-        cmd: snap install docker
+    # - name: install docker
+    #   command:
+    #     chdir: ~/SOS
+    #     cmd: snap install docker
 
     - name: Get running containers
       docker_host_info:
