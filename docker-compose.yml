@@ -1,29 +1,31 @@
 services:
   mongodb:
     image: mongo:latest
-    networks:
-      - backend
-
-  java-mongo:
-    hostname: java-mongo
-    restart: always
-    volumes:
-      - ./packages/java-mongo/:/app
-    command: ./gradlew build && java -jar build/libs/java-mongo-0.0.1-SNAPSHOT.jar
     ports:
-      - "8080:8080"
-    environment:
-      PORT: "8080"
-    build:
-      context: "./packages/java-mongo"
-    networks:
-      - backend
+      - "27017:27017"
+    # networks:
+    #   - backend
 
-networks:
-  backend:
-    name: backend
-    driver: bridge
-    ipam:
-      driver: default
-      config:
-        - subnet: 192.168.123.0/24
+  # java-mongo:
+  #   hostname: java-mongo
+  #   restart: always
+  #   volumes:
+  #     - ./packages/java-mongo/:/app
+  #   command: ./gradlew build && java -jar build/libs/java-mongo-0.0.1-SNAPSHOT.jar
+  #   ports:
+  #     - "8080:8080"
+  #   environment:
+  #     PORT: "8080"
+  #   build:
+  #     context: "./packages/java-mongo"
+  #   networks:
+  #     - backend
+
+# networks:
+#   backend:
+#     name: backend
+#     driver: bridge
+#     ipam:
+#       driver: default
+#       config:
+#         - subnet: 192.168.123.0/24

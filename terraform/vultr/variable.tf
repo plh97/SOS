@@ -1,5 +1,6 @@
 variable "VULTR_API_KEY" {
   type = string
+  default = "2TAIIAFA3WTIPVGBCDYC6LUDBUNI22M6J7LA"
 }
 
 variable "ssh_key_id" {

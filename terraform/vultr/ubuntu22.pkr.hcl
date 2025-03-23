@@ -15,7 +15,7 @@ packer {
 
 source "vultr" "ubuntu22" {
   api_key              = "${var.vultr_api_key}"
-  os_id                = "1946"
+  os_id                = "1743"
   plan_id              = "vc2-1c-1gb"
   region_id            = "sgp"
   snapshot_description = "ubuntu 22 ${formatdate("YYYY-MM-DD hh:mm", timestamp())}"

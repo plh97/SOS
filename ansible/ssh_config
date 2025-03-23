@@ -1,7 +1,16 @@
 Host aws
-  HostName 13.229.123.19
+  HostName 47.129.57.123
   # HostKeyAlias ewq
   IdentityFile ~/.ssh/aws-key.pem
   CheckHostIP no
   Port 22
   User ubuntu
+
+
+Host vultr
+    HostName 45.76.189.87
+    # HostKeyAlias ewq
+    IdentityFile ~/.ssh/qwe.pem
+    CheckHostIP no
+    Port 22
+    User root

@@ -1,10 +1,10 @@
 {
-	"name": "chatroom",
+	"name": "ScienceOS",
 	"version": "1.0.0",
 	"private": true,
 	"main": "index.js",
-	"repository": "https://github.com/pengliheng/chatroom.git",
-	"author": "plh2 <pengliheng111@gmail.com>",
+	"repository": "https://github.com/plh97/SOS.git",
+	"author": "plh97 <pengliheng111@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"bootstrap": "pnpm i",

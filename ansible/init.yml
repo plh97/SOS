@@ -6,6 +6,12 @@
   become: yes
   become_method: sudo
   tasks:
+
+    # - name: install docker
+    #   command:
+    #     chdir: ~/SOS
+    #     cmd: snap install docker
+
     - name: Get running containers
       docker_host_info:
         containers: yes
@@ -30,8 +36,8 @@
         update: yes
         version: main
 
-    - name: deploy
-      command:
-        chdir: ~/SOS
-        cmd: docker compose -f ./docker-compose.dev.yml up
+    # - name: deploy
+    #   command:
+    #     chdir: ~/SOS
+    #     cmd: docker compose -f ./docker-compose.dev.yml up
 ...

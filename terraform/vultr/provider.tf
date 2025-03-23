@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     vultr = {
-      source  = "vultr/vultr"
-      version = "2.12.0"
+      source = "vultr/vultr"
+      version = "2.25.0"
     }
     ssh = {
       source = "loafoe/ssh"

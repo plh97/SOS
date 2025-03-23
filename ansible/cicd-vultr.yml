@@ -1,8 +1,8 @@
 ---
-- hosts: aws
+- hosts: vultr
   # user: ubuntu
   # gather_facts: False
-  remote_user: ubuntu
+  remote_user: root
   become: yes
   become_method: sudo
   tasks:
@@ -23,8 +23,6 @@
         dest: ~/SOS
         force: true
         version: main
-        clone: yes
-        update: yes
 
     - name: deploy
       command:
